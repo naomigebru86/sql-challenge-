@@ -15,3 +15,4 @@ FROM manager
 INNER JOIN dept_emp ON manager.emp_no=dept_emp.emp_no
 INNER JOIN employees ON employees.emp_no=dept_emp.emp_no
 INNER JOIN departments ON departments.dept_no=manager.dept_no
+-- #4 new line
